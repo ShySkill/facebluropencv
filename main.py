@@ -44,7 +44,7 @@ while True:
         break
     if launched == 1:
         print("Window Launched. Please press Q to quit")
-        launched = 2
+        launched = 0
 
 cap.release()
 cv2.destroyAllWindows()
