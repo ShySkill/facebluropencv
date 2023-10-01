@@ -33,7 +33,7 @@ while True:
         for (ex, ey, ew, eh) in eyes:
             cv2.rectangle(face_roi, (ex, ey), (ex+ew, ey+eh), (0, 255, 0), 2)
     
-    text = "CHS Foodcam: Press Q to quit"
+    text = "Foodcam: Press Q to quit"
     cv2.putText(frame, text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
     cv2.imshow('Face Detection', frame)
     
