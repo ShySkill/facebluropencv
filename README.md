@@ -1,4 +1,4 @@
-# FaceBlurOpencv <img src="opencv.png" alt="OpenCV" width="85" height="100">
+# FaceBlurOpencv <img src="opencv.png" alt="OpenCV" width="100" height="100">
 Blurs faces when they enter the field of view, does not detect faces when sideways or slightly out of frame.
 
 ## To Run
